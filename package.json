@@ -1,0 +1,20 @@
+{
+  "name": "atomic-api-service",
+  "version": "0.1.0",
+  "main": "www/bin",
+  "repository": "git@github.com:black-atom/atomic-api-service.git",
+  "author": "vitorsilvalima <vitor.lima2@fatec.sp.gov.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "3.1.0",
+    "express": "4.16.2",
+    "express-graphql": "0.6.11",
+    "graphql": "0.12.3",
+    "pg": "6",
+    "pg-hstore": "2.3.2",
+    "sequelize": "4.31.2"
+  }
+}
